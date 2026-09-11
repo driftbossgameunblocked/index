@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Drift Boss Unblocked</title>
+<meta name="description" content="Play Drift Boss Unblocked — a one-tap arcade drifter that runs in your browser, no downloads or logins.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-row">
+    <span class="logo">drift boss <em>unblocked</em></span>
+    <a class="nav-link" href="#play">play</a>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero wrap">
+    <h1>Drift Boss,<br>unblocked.</h1>
+    <p class="lede">A one-tap arcade drifter you can play anywhere the good sites get blocked. No install, no account — just you, a road, and a lot of sharp corners.</p>
+    <a class="cta" href="#play">Play now</a>
+  </section>
+
+  <section id="play" class="game-section wrap">
+    <div class="game-frame">
+      <div class="hud">
+        <span class="hud-label">score</span>
+        <span id="score">0</span>
+        <span class="hud-label">best</span>
+        <span id="best">0</span>
+      </div>
+      <canvas id="game" width="380" height="560" aria-label="Drift Boss game canvas"></canvas>
+      <div id="overlay" class="overlay">
+        <p id="overlay-text">Tap or press space<br>to start drifting</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="howto wrap">
+    <h2>How to play</h2>
+    <ol>
+      <li>
+        <span class="num">1</span>
+        <p>Your car drifts forward on its own — you don't steer the straights.</p>
+      </li>
+      <li>
+        <span class="num">2</span>
+        <p>Watch for the marker that lights up just before a corner. That's your window.</p>
+      </li>
+      <li>
+        <span class="num">3</span>
+        <p>Tap, click, or hit space right as it lights up. Too early or too late and you skid off the road.</p>
+      </li>
+    </ol>
+  </section>
+
+  <section class="about wrap">
+    <h2>Why "unblocked"</h2>
+    <p>The whole game is one HTML5 canvas — no plugins, no launcher, no third-party embed to get flagged. It loads on school wifi, office networks, and anywhere else the usual game sites don't. Close the tab, open it again later: your best score is waiting, saved right in this browser.</p>
+  </section>
+
+</main>
+
+<footer class="site-footer wrap">
+  <p>Drift Boss Unblocked — built for the five minutes between classes.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
